@@ -1,0 +1,30 @@
+/* About.module.css */
+
+.container {
+    padding: 30px 40px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    max-width: 700px; /* Adjusted for a more standard width */
+    margin: 60px auto;
+    background-color: #d4e0cd; /* A gentle, neutral color */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+    color: #2a2a2a;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}

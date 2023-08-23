@@ -1,0 +1,46 @@
+.homeContainer {
+    background-color: #d4e0cd; /* Set the background color as described */
+    min-height: 100vh; /* Ensure the background fills the entire viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Provide some padding */
+    color: #333;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif; /* Use the Google Font */
+    font-weight: 600; /* Medium font weight for the title */
+    font-size: 4rem; /* Make the title really big */
+    margin-bottom: 20px; /* Give some space below the title */
+    text-align: center;
+}
+
+.features {
+    font-family: 'Open Sans', sans-serif; /* Use the Google Font */
+    font-weight: 400; /* Regular font weight for the features */
+    font-size: 1.5rem; /* Slightly larger than default text size */
+    margin-bottom: 30px; /* Give some space below the features */
+    text-align: center;
+    width: 80%; /* Constrain the width for wider screens */
+}
+
+.button {
+    /* Assuming your button already has some styles, but you can add more as needed */
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: #466362; /* Some arbitrary color */
+    color: #fff; /* White text */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    font-weight: bold;
+
+    /* Optional hover effect */
+    &:hover {
+        background-color: #364947; /* Darken button color on hover */
+    }
+}
