@@ -1,5 +1,6 @@
 # College Course Planner
 
+Check this website for the deployment https://courseplanner-1.vercel.app/
 Attempting to schedule my classes for upcoming semesters while ensuring I met all my degree requirements was quite challenging and exhausting. 
 
 
