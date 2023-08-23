@@ -258,6 +258,8 @@ const Dashboard: React.FC = () => {
         const allSelectedClasses = semesters.flatMap(semester => semester.selectedClasses);
         let coreCredits = 0;
         let programCoreCredits = 0;
+        const CoeCore = allSelectedClasses.filter(selectedCls => coreClasses.includes(selectedCls.classname));
+        coreCredits = CoeCore.reduce((acc, cls) => acc + cls.creditNos, 0);
         for (const selectedCls of allSelectedClasses) {
             const category = handleAlternativeClasses(selectedCls);
             if (category === 'CoE Core') {
