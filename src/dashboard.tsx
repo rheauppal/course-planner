@@ -420,7 +420,7 @@ const Dashboard: React.FC = () => {
                                         <CreatableSelect
                                             options={classes.map(cls => ({ value: cls.id, label: cls.classname }))}
                                             onChange={(option, actionMeta) => handleClassSelect(semester.id, option, actionMeta)}
-                                            placeholder="Search for a class or add a new one..."
+                                            placeholder="Search for a class"
                                         />
 
                                     ) : (
