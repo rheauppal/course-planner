@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# College Course Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Attempting to schedule my classes for upcoming semesters while ensuring I met all my degree requirements was quite challenging and exhausting. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To address this challenge, I developed the College Course Planner, enabling users to easily schedule classes by semester, tally up total credits, and verify degree requirements.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Add and delete classes with ease.
+Create and add classes currently not in the database.
+Integrate spring semesters and courses taken prior to college enrollment.
+Comprehensively map out degree requirements.
+Store and retrieve your schedules securely by signing in.
+Instantly calculate the total credits accumulated.
 
-- Configure the top-level `parserOptions` property like this:
+Built on a robust foundation of React, this project employs Bootstrap CSS for a seamless user interface and Firebase as its backend database.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+As of now, the planner is tailor-made for Computer Science majors at the University of Michigan. However, there's a vision to expand its horizons and encompass various other majors in the near future.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Developed by Rhea Uppal
